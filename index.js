@@ -3,17 +3,12 @@ const app = express()
 const PORT = process.env.PORT || 3010
 const dotenv = require('dotenv')
 const bodyParser = require('body-parser')
-const cors = require('cors')
 const path = require('path')
 
 dotenv.config()
 
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(express.json())
-
-app.use(cors({
-    origin: 'http://localhost:3000'
-}));
 
 app.get('*', (req, res) => {
   res.sendFile(
