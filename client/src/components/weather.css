@@ -1,0 +1,16 @@
+.thumb {
+    width: 225px;
+}
+
+.today-data{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.weatherdata {
+    margin-top: 10px;
+}
+
+.weather-icon {
+    width: 60px;
+}
