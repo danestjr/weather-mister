@@ -15,11 +15,11 @@ function App() {
   return (
     <>
     <Navbar
-          color="warning"
+          color="info"
           light
         >
         <NavbarBrand href="/">
-        Weather App
+        Weather Mister
         </NavbarBrand>
         <Form onSubmit={handleSearch}>
             <Input type="text" placeholder="Search" name="query" id="query" />

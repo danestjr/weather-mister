@@ -77,7 +77,7 @@ function Weather(props){
             <div className='weatherdata'>
                 <div className='today-hero'>
                     <h2>Today's Weather</h2>
-                    <Row className='today-data rounded bg-warning shadow-sm bg-opacity-75' xs="2">
+                    <Row className='today-data rounded bg-info shadow-sm bg-opacity-75' xs="2">
                         <Col>
                             <img className="thumb" src={forecast.photo} alt='city'/> <br />
                             <strong>Sunrise:</strong> {forecast.sunrise} <br />
@@ -93,7 +93,7 @@ function Weather(props){
                 </div>
                 <h2>Next Few Days</h2>
                 <div className='forecast-data'>
-                    <Row className='rounded bg-warning shadow-sm bg-opacity-50'>
+                    <Row className='rounded bg-info shadow-sm bg-opacity-50'>
                         <Col>
                             <Table>
                                 <thead>
