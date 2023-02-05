@@ -77,7 +77,7 @@ function Weather(props){
             <div className='weatherdata'>
                 <div className='today-hero'>
                     <h2>Today's Weather</h2>
-                    <Row className='today-data rounded bg-info shadow-sm bg-opacity-75' xs="2">
+                    <Row className='today-data rounded bg-info shadow-sm bg-opacity-75 align-center' sm="2">
                         <Col>
                             <img className="thumb" src={forecast.photo} alt='city'/> <br />
                             <strong>Sunrise:</strong> {forecast.sunrise} <br />

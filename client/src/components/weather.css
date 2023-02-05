@@ -2,6 +2,15 @@
     width: 225px;
 }
 
+ @media (max-width: 640px) {
+    .thumb {
+        width: 150px;
+    }
+    .forecast-data {
+        font-size: small;
+    }
+ }
+
 .today-data{
     padding: 10px;
     margin-bottom: 15px;
